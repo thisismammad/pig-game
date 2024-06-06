@@ -133,9 +133,11 @@ h5 {
 
     section {
         width: 100%;
-        padding-top: 70px;
-        padding-bottom: 70px;
-
+        padding-top: 60px;
+        height: max-content;
+    }
+    .left-player{
+        padding-bottom: 60px;
     }
 
     .container {
@@ -155,7 +157,7 @@ h5 {
         left: 0;
         right: 0;
         margin: auto;
-        top: 43%;
+        top: 45%;
     }
 
     body {
@@ -164,8 +166,8 @@ h5 {
     }
 
     button {
-
-        padding: 10px 20px;
+        width: 80px;
+        padding: 10px 0px;
     }
 
     .start {
