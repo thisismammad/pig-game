@@ -33,7 +33,7 @@ body {
     position: absolute;
     z-index: 1;
     left: 50%;
-    margin-left: -62px;
+    margin-left: -80px;
     height: 100%;
     justify-content: flex-end;
     gap: 20px;
@@ -47,6 +47,7 @@ button {
     background-color: #ffffff;
     border: none;
     padding: 20px 30px;
+    box-shadow: 0 2px 5px rgb(51, 51, 51);
 }
 
 button:hover {
@@ -63,6 +64,8 @@ button:active {
 
 .dice {
     margin-bottom: 70px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(88, 88, 88);
 }
 
 
@@ -84,17 +87,19 @@ section {
 }
 
 .left-player {
-    background-color: rgb(10, 105, 247);
+    background-color: #66D2D6;
 }
 
 .right-player {
-    background-color: rgb(245, 63, 63);
+    background-color: #E7625F;
 }
 
 h3 {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(51, 51, 51);
+
 }
 
 .score {
@@ -136,7 +141,8 @@ h5 {
         padding-top: 60px;
         height: max-content;
     }
-    .left-player{
+
+    .left-player {
         padding-bottom: 60px;
     }
 
@@ -166,7 +172,7 @@ h5 {
     }
 
     button {
-        width: 80px;
+        width: 100px;
         padding: 10px 0px;
     }
 
