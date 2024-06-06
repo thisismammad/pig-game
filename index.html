@@ -11,34 +11,34 @@
 <body>
     <div class="container">
         <div class="controller">
-            <button>Start Game</button>
+            <button class="start">Start Game</button>
             <img src="images/dice-1.svg" alt="dice 1" class="dice" width="100px" height="100px">
-            <button>Roll Dice</button>
-            <button>Hold</button>
+            <button id="roll">Roll Dice</button>
+            <button id="hold">Hold</button>
         </div>
         <div class="game">
             <section class="left-player">
                 <h3>Player One</h3>
-                <div class="total-score">
-                    <h4>Total Score</h4>
+                <div class="score total-score">
+                    <h5>Total Score</h5>
 
-                    <h4>0</h4>
+                    <h5 id="total-one">0</h5>
                 </div>
-                <div class="current-score">
-                    <h4>Current Score</h4>
-                    <h4>0</h4>
+                <div class="score current-score">
+                    <h5>Current Score</h5>
+                    <h5 id="current-one">0</h5>
                 </div>
             </section>
             <section class="right-player">
                 <h3>Player Two</h3>
-                <div class="total-score">
-                    <h4>Total Score</h4>
+                <div class="score total-score">
+                    <h5>Total Score</h5>
 
-                    <h4>0</h4>
+                    <h5 id="total-two">0</h5>
                 </div>
-                <div class="current-score">
-                    <h4>Current Score</h4>
-                    <h4>0</h4>
+                <div class="score current-score">
+                    <h5>Current Score</h5>
+                    <h5 id="current-two">0</h5>
                 </div>
             </section>
         </div>
